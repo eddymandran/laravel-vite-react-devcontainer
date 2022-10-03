@@ -107,9 +107,7 @@ networks:
 volumes:
     data-pgsql:
         driver: local
-    data-pgadmin:
+    cloudbeaver:
         driver: local
     data-meilisearch:
-        driver: local
-    cloudbeaver:
         driver: local
